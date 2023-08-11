@@ -37,6 +37,8 @@ The list of items (and their value) that were tested are:
 - pollen (64)
 - cats (128)
 
+Max.Score = 255
+
 So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
 Now, given just that score of 34, your program should be able to say:
