@@ -29,9 +29,9 @@ var allergies = [
       isAlergic = false;
     }
   
-    switch (convertToBin(binScore).charAt(i) = 1) {
+    switch (i) {
       case 0:
-        myAllergies.push("eggs");
+        if (isAlergic) myAllergies.push("eggs");
         break;
       
       case 1:
@@ -73,10 +73,10 @@ var allergies = [
     }
   
     list() {
-      throw new Error('Remove this statement and implement this function');
+      return()
     }
   
-    allergicTo() {
+    allergicTo(subtance) {
       this.allergicTo = () => myAllergies;
     }
   }
