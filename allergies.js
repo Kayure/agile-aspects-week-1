@@ -29,7 +29,7 @@ var allergies = [
       isAlergic = false;
     }
   
-    switch (binScorePos) {
+    switch (convertToBin(binScore).charAt(i) = 1) {
       case 0:
         myAllergies.push("eggs");
         break;
